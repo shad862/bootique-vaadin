@@ -1,4 +1,4 @@
-package io.bootique.gui;
+package io.bootique.routes;
 
 import com.vaadin.flow.component.Text;
 import com.vaadin.flow.component.button.Button;
@@ -8,12 +8,12 @@ import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
 
 @Route("")
-@PageTitle("BootiqueVsVaadin")
-public class BootiqueVsVaadin extends VerticalLayout {
-    public BootiqueVsVaadin() {
+@PageTitle("BootiqueVaadin")
+public class BootiqueVaadin extends VerticalLayout {
+    public BootiqueVaadin() {
         Button button = new Button("Click me",
                 event -> Notification.show("Clicked!"));
         add(button);
-        add(new Text("Bootique 1 vs Vaadin 14"));
+        add(new Text("Bootique With Vaadin"));
     }
 }

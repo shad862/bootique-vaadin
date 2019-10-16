@@ -1,6 +1,3 @@
 jetty:
   connectors:
     - port: 7207
-
-log:
-  level: ALL
