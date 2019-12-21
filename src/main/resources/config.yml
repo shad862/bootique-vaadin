@@ -1,3 +1,0 @@
-jetty:
-  connectors:
-    - port: 7207
